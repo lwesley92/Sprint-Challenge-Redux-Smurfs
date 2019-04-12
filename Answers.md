@@ -5,7 +5,7 @@ concat(), filter(), map(). Object.assign() creates a new object while extending 
 
 1.  Describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
 
-Actions are objects that contain some form of payload information, that they then pass to the reducers. The reducers 
+Actions are objects that contain some form of payload information, that they then pass to the reducers. The reducers take any actions that are dispatched and deals with the necessary data and replaces the current state within the store. The Store is where our current and previous states are held, and it is known as a single source of truth because the app changes based upon what happens to the state itself.
 
 1.  What is the difference between Application state and Component state? When would be a good time to use one over the other?
 
